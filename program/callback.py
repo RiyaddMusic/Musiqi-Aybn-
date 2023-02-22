@@ -84,7 +84,7 @@ async def cbcmds(_, query: CallbackQuery):
 
 » **izahatı oxumaq və mövcud əmrlərin siyahısına baxmaq üçün aşağıdakı düyməni basın! !**
 
-⚡ __𝐍 𝐄 𝐗 𝐔 𝐒 {BOT_NAME} __""",
+🇦🇿 __RiyadMusic {BOT_NAME} __""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -105,7 +105,7 @@ async def cbbasic(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""🏮 here is the basic commands:
 
-» oynat - <mahnı adı> - istədiyiniz mahnını çalın
+» play - <mahnı adı> - istədiyiniz mahnını çalın
 » /vplay - <video adı> - istədiyiniz video çalın
 » /vstream - youtube live/m3u8-dən canlı video oynayın
 » /playlist - show you the playlist
@@ -118,7 +118,7 @@ async def cbbasic(_, query: CallbackQuery):
 » /uptime - botun işləmə müddətini göstərin
 » /alive - botun canlı məlumatını göstərin (qrupda)
 
-⚡️ __𝐍 𝐄 𝐗 𝐔 𝐒 {BOT_NAME} __""",
+🇦🇿 __RiyadMusic {BOT_NAME} __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Geri", callback_data="cbcmds")]]
         ),
@@ -130,9 +130,9 @@ async def cbadmin(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""🏮 here is the admin commands:
 
-» /dur  - mahnının səsləndirilməsini dayandırın
+» /end  - mahnının səsləndirilməsini dayandırın
 » /devam - mahnı oxumağa davam edin
-» /atla  - növbəti mahnıya keçid edin
+» /skip  - növbəti mahnıya keçid edin
 » /bitir  - musiqi çalmağı dayandırın
 » /vmute - səsli söhbətdə istifadəçi robotunun səsini söndürün
 » /vunmute - səsli söhbətdə istifadəçi robotunun səsini açın
@@ -141,7 +141,7 @@ async def cbadmin(_, query: CallbackQuery):
 » /userbotjoin - istifadəçi robotunu qrupa qoşulmağa dəvət edin
 » /userbotleave - userbot-a qrupdan çıxmağı əmr edin
 
-⚡️ __𝐍 𝐄 𝐗 𝐔 𝐒 {BOT_NAME} __""",
+🇦🇿 __RiyadMusic {BOT_NAME} __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Geri", callback_data="cbcmds")]]
         ),
@@ -159,7 +159,7 @@ async def cbsudo(_, query: CallbackQuery):
 » /yenile - botunuzu yenidən başladın
 » /leaveall - userbotun bütün qrupdan çıxmasını əmr edin
 
-⚡ __𝐍 𝐄 𝐗 𝐔 𝐒 {BOT_NAME} __""",
+🇦🇿 __RiyadMusic {BOT_NAME} __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Geri", callback_data="cbcmds")]]
         ),
